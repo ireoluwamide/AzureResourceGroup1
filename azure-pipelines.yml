@@ -19,7 +19,7 @@ steps:
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'rg-xyl-explore'
     location: 'UK South'
-    templateLocation: 'https://raw.githubusercontent.com/ireoluwamide/AzureResourceGroup1/master/AzureResourceGroup1/azuredeploy.json'
+    templateLocation: 'URL of the file'
     csmFile: 'https://raw.githubusercontent.com/ireoluwamide/AzureResourceGroup1/master/AzureResourceGroup1/azuredeploy.json'
     csmParametersFile: 'https://raw.githubusercontent.com/ireoluwamide/AzureResourceGroup1/master/AzureResourceGroup1/azuredeploy.parameter.json'
     deploymentMode: 'Incremental'
