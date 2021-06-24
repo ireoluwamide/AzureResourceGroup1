@@ -11,15 +11,19 @@ pool:
 
 steps:
 
+
+
+
+
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'Free Trial(52bc4dc8-a26d-473e-9544-fcb5f04bf270)'
-    subscriptionId: '52bc4dc8-a26d-473e-9544-fcb5f04bf270'
+    azureResourceManagerConnection: 'svc-conn-az400'
+    subscriptionId: '7771321d-d5d5-4257-b9e1-a154680c38ff'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'ft-xyl-01'
+    resourceGroupName: 'rg-xyl-explore'
     location: 'UK South'
-    templateLocation: 'URL of the file'
-    csmFileLink: 'https://raw.githubusercontent.com/ireoluwamide/AzureResourceGroup1/master/AzureResourceGroup1/azuredeploy.json'
-    csmParametersFileLink: 'https://raw.githubusercontent.com/ireoluwamide/AzureResourceGroup1/master/AzureResourceGroup1/azuredeploy.parameters.json'
+    templateLocation: 'Linked artifact'
+    csmFile: 'https://raw.githubusercontent.com/ireoluwamide/AzureResourceGroup1/master/AzureResourceGroup1/azuredeploy.json'
+    csmParametersFile: 'https://raw.githubusercontent.com/ireoluwamide/AzureResourceGroup1/master/AzureResourceGroup1/azuredeploy.parameters.json'
     deploymentMode: 'Incremental'
