@@ -20,6 +20,6 @@ steps:
     resourceGroupName: 'ft-xyl-01'
     location: 'UK South'
     templateLocation: 'URL of the file'
-    csmFileLink: 'https://github.com/ireoluwamide/AzureResourceGroup1/blob/e7d5e079860c32853c79b178a25ae365fcaa48b7/AzureResourceGroup1/azuredeploy.json'
-    csmParametersFileLink: 'https://github.com/ireoluwamide/AzureResourceGroup1/blob/e7d5e079860c32853c79b178a25ae365fcaa48b7/AzureResourceGroup1/azuredeploy.parameters.json'
+    csmFileLink: 'https://raw.githubusercontent.com/ireoluwamide/AzureResourceGroup1/master/AzureResourceGroup1/azuredeploy.json'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/ireoluwamide/AzureResourceGroup1/master/AzureResourceGroup1/azuredeploy.parameter.json'
     deploymentMode: 'Incremental'
