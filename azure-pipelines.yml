@@ -16,7 +16,7 @@ steps:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'svc-dev/test-conn'
     subscriptionId: '8f3c1244-3219-4964-a794-133bdd81e19b'
-    action: 'Create Or Update Resource Group'
+    action: 'DeleteRG'
     resourceGroupName: 'rg-explore-xyl'
     location: 'UK South'
     templateLocation: 'URL of the file'
