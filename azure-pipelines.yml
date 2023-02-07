@@ -17,7 +17,7 @@ steps:
     azureResourceManagerConnection: 'az400-svc-conn'
     subscriptionId: '8f3c1244-3219-4964-a794-133bdd81e19b'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'rg-xyl-explore'
+    resourceGroupName: 'rg-explore-xyl'
     location: 'UK South'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/ireoluwamide/AzureResourceGroup1/master/AzureResourceGroup1/azuredeploy.json'
