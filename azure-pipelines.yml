@@ -14,7 +14,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'az400-svc-conn'
+    azureResourceManagerConnection: 'svc-dev/test-conn'
     subscriptionId: '8f3c1244-3219-4964-a794-133bdd81e19b'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'rg-explore-xyl'
