@@ -15,7 +15,7 @@ steps:
   inputs:
     deploymentScope: 'Resource Group'
     azureResourceManagerConnection: 'az400-svc-conn'
-    subscriptionId: '7771321d-d5d5-4257-b9e1-a154680c38ff'
+    subscriptionId: '8f3c1244-3219-4964-a794-133bdd81e19b'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'rg-xyl-explore'
     location: 'UK South'
